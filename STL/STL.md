@@ -1637,7 +1637,7 @@ deallocate负责释放内存（此时相应内存中的值在此之前应调用d
 
 #### relational operators (vector)
 #### swap (vector)
-#### vector <bool>
+#### vector
 
 ### deque
 deque（['dek]）（双端队列）是double-ended queue 的一个不规则缩写。deque是具有动态大小的序列容器，可以在两端（前端或后端）扩展或收缩。
@@ -2061,7 +2061,7 @@ mylist contains: 19 77 2 16
 map 是关联容器，按照特定顺序存储由 key value (键值) 和 mapped value (映射值) 组合形成的元素。
 
 在映射中，键值通常用于对元素进行排序和唯一标识，而映射的值存储与此键关联的内容。该类型的键和映射的值可能不同，并且在部件类型被分组在一起VALUE_TYPE，这是一种对类型结合两种：
- 
+
 ```cpp
 typedef pair<const Key, T> value_type;
 ```
@@ -2077,6 +2077,7 @@ template < class Key,                                     // map::key_type
 ```
 
 #### map::map
+
 构造一个映射容器对象，根据所使用的构造器版本初始化其内容：
 
 （1）空容器构造函数（默认构造函数）
