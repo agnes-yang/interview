@@ -45,7 +45,6 @@
 * [📆 招聘时间岗位](#recruitment-time-post)
 * [👍 内推](#recommend)
 * [👬 贡献者](#contributor)
-* [🍭 支持赞助](#support-sponsor)
 * [📜 License](#license)
 
 
@@ -939,9 +938,9 @@ virtual int A() = 0;
         * 虚函数不占用存储空间
         * 虚函数表存储的是虚函数地址
 
-### 模板类、成员模板、虚函数
+### 类模板、成员模板、虚函数
 
-* 模板类中可以使用虚函数
+* 类模板中可以使用虚函数
 * 一个类（无论是普通类还是类模板）的成员模板（本身是模板的成员函数）不能是虚函数
 
 ### 抽象类、接口类、聚合类
@@ -3432,12 +3431,6 @@ int main( void )
 ## 👬 贡献者
 
 <a href="https://github.com/huihut/interview/graphs/contributors"><img src="https://opencollective.com/interview/contributors.svg?button=false" /></a>
-
-<a id="support-sponsor"></a>
-
-## 🍭 支持赞助
-
-**[Avalive](https://store.steampowered.com/app/1137770/Avalive/)**：一个面部捕捉的虚拟形象扮演软件。
 
 <a id="license"></a>
 
